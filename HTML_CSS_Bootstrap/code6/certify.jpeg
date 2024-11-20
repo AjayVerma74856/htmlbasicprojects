@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)https://dharmakarma.net/DKCertified/ODISHA/FO01LN01/760008/BO18MS01/ -->
+<html lang="zxx"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="HTML5 Template,Business,Theme,Agency,corporate">
+  <meta name="description" content="">
+  <title>Rudra Engineering</title>
+
+  <!--font-awesome icons link-->
+  <link rel="stylesheet" href="./certify_files/font-awesome.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./certify_files/bootstrap.min.css">
+  <link rel="stylesheet" href="./certify_files/slick.css">
+  <link rel="stylesheet" href="./certify_files/venobox.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" -->
+  <!-- integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+  <!--main style file-->
+  <link rel="stylesheet" href="./certify_files/style.css">
+  <link rel="stylesheet" href="./certify_files/responsive.css">
+  <script src="./certify_files/jspdf.debug.js.download" integrity="sha512-cLuyDTDg9CSseBSFWNd4wkEaZ0TBEpclX0zD3D6HjI19pO39M58AgJ1SjHp6c7ZOp0/OCRcC2BCvvySU9KJaGw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</head>
+
+<body class="modal-open" style="padding-right: 15px;">
+  <!-- Preloader Part Start -->
+  <div class="preload-main" style="display: none;">
+    <div class="preloader">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <!-- Preloader Part End -->
+  <!-- HEADER AREA START -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top nav-bg" style="padding-right: 31px; margin-right: -15px;">
+    <div class="container">
+      <a class="navbar-brand" href="https://dharmakarma.net/DKCertified/ODISHA/FO01LN01/760008/BO18MS01/#banner"><b>Rudra Engineering</b></a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-right: 15px;">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </button>
+
+      <div class="collapse navbar-collapse menu-main" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto menu-item">
+          <li class="nav-item">
+            <a class="nav-link" href="https://dharmakarma.net/DKCertified/ODISHA/FO01LN01/760008/BO18MS01/#banner">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://dharmakarma.net/DKCertified/ODISHA/FO01LN01/760008/BO18MS01/#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://dharmakarma.net/DKCertified/ODISHA/FO01LN01/760008/BO18MS01/#service">Our Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://dharmakarma.net/DKCertified/ODISHA/FO01LN01/760008/BO18MS01/#testimonial">Our Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="https://dharmakarma.net/DKCertified/ODISHA/FO01LN01/760008/BO18MS01/#contact1">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- HEADER AREA END -->
+
+  <!-- BANNER AREA START -->
+  <div class="container w-70">
+    <section id="banner">
+      <i class="fa fa-long-arrow-left slidPrv slick-arrow slick-hidden" aria-hidden="true" aria-disabled="true" tabindex="-1"></i>
+      <i class="fa fa-long-arrow-right slidNext slick-arrow slick-hidden" aria-hidden="true" aria-disabled="true" tabindex="-1"></i>
+      <div class="slider-img slick-initialized slick-slider">
+        <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 977px;"><div class="slide-banner slick-slide slick-current slick-active" style="background: url(&quot;image/banner2.jpg&quot;); width: 977px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" data-slick-index="0" aria-hidden="false" tabindex="0">
+          <div class="overly">
+            <div class="banner-content">
+              <div class="container text-center">
+                <div class="banner-text">
+                  <h3>Rudra Engineering</h3>
+                  <h2>Contact Us</h2>
+                  <div class="contact">
+                    <a type="button" class="btn btn-primary btn-lg" title=" Call" href="tel:+919938964453" tabindex="0"><i style=" font-size:30px;" class="fa fa-phone"></i></a>
+                    <a type="button" class="btn btn-info btn-lg" title=" SMS" href="sms:+919938964453" tabindex="0"><i style=" font-size:30px;" class="fa fa-comments"></i></a>
+                    <a type="button" class="btn btn-success btn-lg" title=" WhatsApp" data-toggle="modal" data-target="#modalForm" tabindex="0"><i style=" font-size:30px;" class="fa fa-whatsapp"></i></a>
+                    <a type="button" class="btn btn-danger btn-lg" title=" Mail" data-toggle="modal" data-target="#modalForm2" tabindex="0"><i style=" font-size:30px;" class="fa fa-envelope-o"></i></a> <br><br>
+                    <a type="button" class="btn btn-danger btn-lg" id="vcfmodal" title="VCF Card" data-toggle="modal" data-target="#modalForm4" tabindex="0">VCF Card</a>
+                      <a href="https://dharmakarma.net/DKCertified/ODISHA/FO01LN01/760008/BO18MS01/image/vcf-Cards.vcf" id="vcf" tabindex="0">
+                            <button class="btn btn-primary dk2" tabindex="0"><i class="fa fa-download" aria-hidden="true">
+                                 &nbsp;</i>VCF</button><br><br></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div></div></div>
+
+        </div>
+      </section></div>
+  
+  
+  <!-- BANNER AREA END -->
+
+  <!-- ABOUT AREA START -->
+  <div class="container w-70">
+    <section id="about">
+      <div class="backtotop" style="display: block;">
+        <a href="https://dharmakarma.net/DKCertified/ODISHA/FO01LN01/760008/BO18MS01/#banner"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 about-head">
+            <h2>ABOUT US</h2>
+            <h3>KNOW ABOUT OUR COMPANY</h3>
+          </div>
+        </div>
+        <div class="row apt">
+          <div class="col-lg-5 col-sm-8 m-sm-auto">
+            <div class="about-img">
+              <img src="./certify_files/about0.jpeg" width="900px" alt="about-img" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-6 about-text">
+            <h2>Our company name is Rudra Engineering</h2>
+            <span style="color: black;">Owner Name :-</span> <span style="color: red;">Manas Ranjan Satapathy</span>
+            <div class="about-p">
+              <h5>Welcome to Rudra Engineering..</h5>
+              <p>This is a COMPANY THAT DESIGNS GATES. A gate can make an opening statement and offer a first impression of your home; 
+                it's like the front door for your entire property. The perfect gate blends with your home's architectural design, 
+                using similar or complementary materials. Connected to a fence or standing alone, 
+                a gate combines form and function, providing another layer of safety, 
+                whether it's keeping kids and pets contained in the yard, creating more privacy, or adding extra security. 
+                If it's well designed,a gate can be the focal point of a home's front exterior.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- ABOUT AREA END -->
+
+  <!-- SERVICE AREA START -->
+  <div class="container w-70">
+    <section id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 service-p">
+            <div class="about-head">
+              <h2>OUR SERVICE</h2>
+              <h3>CHECKOUT OUR SERVICE</h3>
+            </div>
+            <div class="service-details">
+              <p>Our company listens to the customer demands and plans according to them and designs the gate that satifies to customer.</p>
+                <p>ଆମ କମ୍ପାନୀ ଗ୍ରାହକଙ୍କ ଚାହିଦା ଏବଂ ଯୋଜନା ଅନୁଯାୟୀ ଶୁଣେ ଏବଂ ଗେଟ୍ ଡିଜାଇନ୍ କରେ ଯାହା ଗ୍ରାହକଙ୍କୁ ସନ୍ତୁଷ୍ଟ କରେ | </p>
+              <p>We are also having some good ideas and dsigns for customer to decide the design.
+              Traditional materials for gates include: Wood, Metal, Vinyl, PVC, or Polyresin, Alternative Natural Materials: Like rattan or bamboo. 
+              ଗ୍ରାହକଙ୍କ ପାଇଁ ଡିଜାଇନ୍ ସ୍ଥିର କରିବାକୁ ଆମର କିଛି ଭଲ ଧାରଣା ଏବଂ ଡିଜାଇନ୍ ମଧ୍ୟ ଅଛି |
+               ଫାଟକ ପାଇଁ ପାରମ୍ପାରିକ ସାମଗ୍ରୀ ଅନ୍ତର୍ଭୁକ୍ତ: କାଠ, ଧାତୁ, ଭିନିଲ୍, ପିଭିସି, କିମ୍ବା ପଲିରେସିନ୍, ବିକଳ୍ପ ପ୍ରାକୃତିକ ସାମଗ୍ରୀ: ରତନ କିମ୍ବା ବାଉଁଶ ପରି |</p>
+              <p></p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service-item">
+              <img class="w-90" src="./certify_files/s1.jpeg" width="250px" alt="">
+            </div>
+            <div class="service-item service-item2">
+              <img class="w-90" src="./certify_files/s2.jpeg" width="250px" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service-item service-item3">
+              <img class="w-90" src="./certify_files/s3.jpeg" width="250px" alt="">
+            </div>
+            <div class="service-item service-item4">
+              <img class="w-90" src="./certify_files/s4.jpeg" width="250px" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- SERVICE AREA END -->
+
+  <!-- TESTIMONIAL AREA START -->
+  <div class="container w-70">
+    <section id="testimonial">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 about-head">
+            <h2>OUR GALLERY</h2>
+            <h3>LOOK WHAT PEOPLE SAYS</h3>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-lg-12">
+            <div class="news-main slick-initialized slick-slider slick-dotted">
+              
+              
+              
+              
+            <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 4740px; transform: translate3d(-1896px, 0px, 0px);"><div class="col-lg-6 col-md-6 slick-slide slick-cloned" tabindex="-1" role="tabpanel" aria-describedby="slick-slide-control12" style="width: 474px;" data-slick-index="-2" aria-hidden="true">
+                <div class="news-item-main">
+                  <img src="./certify_files/g3.jpg" width="300px" alt="">
+                </div>
+              </div><div class="col-lg-6 col-md-6 slick-slide slick-cloned" tabindex="-1" role="tabpanel" aria-describedby="slick-slide-control13" style="width: 474px;" data-slick-index="-1" aria-hidden="true">
+                <div class="news-item-main">
+                  <img src="./certify_files/g4.jpg" width="300px" alt="">
+                </div>
+              </div><div class="col-lg-6 col-md-6 slick-slide" tabindex="-1" role="tabpanel" id="slick-slide10" aria-describedby="slick-slide-control10" style="width: 474px;" data-slick-index="0" aria-hidden="true">
+                <div class="news-item-main">
+                  <img style="justify-items: center;" src="./certify_files/g2.jpg" width="300px" alt="">
+                </div>
+              </div><div class="col-lg-6 col-md-6 slick-slide" tabindex="-1" role="tabpanel" id="slick-slide11" aria-describedby="slick-slide-control11" style="width: 474px;" data-slick-index="1" aria-hidden="true">
+                <div class="news-item-main">
+                  <img src="./certify_files/g1.jpeg" width="300px" alt="">
+                </div>
+              </div><div class="col-lg-6 col-md-6 slick-slide slick-current slick-active" tabindex="0" role="tabpanel" id="slick-slide12" aria-describedby="slick-slide-control12" style="width: 474px;" data-slick-index="2" aria-hidden="false">
+                <div class="news-item-main">
+                  <img src="./certify_files/g3.jpg" width="300px" alt="">
+                </div>
+              </div><div class="col-lg-6 col-md-6 slick-slide slick-active" tabindex="0" role="tabpanel" id="slick-slide13" aria-describedby="slick-slide-control13" style="width: 474px;" data-slick-index="3" aria-hidden="false">
+                <div class="news-item-main">
+                  <img src="./certify_files/g4.jpg" width="300px" alt="">
+                </div>
+              </div><div class="col-lg-6 col-md-6 slick-slide slick-cloned" tabindex="-1" role="tabpanel" aria-describedby="slick-slide-control10" style="width: 474px;" data-slick-index="4" aria-hidden="true">
+                <div class="news-item-main">
+                  <img style="justify-items: center;" src="./certify_files/g2.jpg" width="300px" alt="">
+                </div>
+              </div><div class="col-lg-6 col-md-6 slick-slide slick-cloned" tabindex="-1" role="tabpanel" aria-describedby="slick-slide-control11" style="width: 474px;" data-slick-index="5" aria-hidden="true">
+                <div class="news-item-main">
+                  <img src="./certify_files/g1.jpeg" width="300px" alt="">
+                </div>
+              </div><div class="col-lg-6 col-md-6 slick-slide slick-cloned" tabindex="-1" role="tabpanel" aria-describedby="slick-slide-control12" style="width: 474px;" data-slick-index="6" aria-hidden="true">
+                <div class="news-item-main">
+                  <img src="./certify_files/g3.jpg" width="300px" alt="">
+                </div>
+              </div><div class="col-lg-6 col-md-6 slick-slide slick-cloned" tabindex="-1" role="tabpanel" aria-describedby="slick-slide-control13" style="width: 474px;" data-slick-index="7" aria-hidden="true">
+                <div class="news-item-main">
+                  <img src="./certify_files/g4.jpg" width="300px" alt="">
+                </div>
+              </div></div></div><ul class="slick-dots" style="display: block;" role="tablist"><li class="" role="presentation"><button type="button" role="tab" id="slick-slide-control10" aria-controls="slick-slide10" aria-label="1 of 2" tabindex="-1">1</button></li><li class="" role="presentation"><button type="button" role="tab" id="slick-slide-control11" aria-controls="slick-slide11" aria-label="2 of 2" tabindex="-1">2</button></li><li role="presentation" class="slick-active"><button type="button" role="tab" id="slick-slide-control12" aria-controls="slick-slide12" aria-label="3 of 2" tabindex="0" aria-selected="true">3</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control13" aria-controls="slick-slide13" aria-label="4 of 2" tabindex="-1">4</button></li></ul></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- TESTIMONIAL AREA END -->
+
+  <!-- CONTACT AREA START -->
+  <div class="container w-70">
+    <section id="contact1">
+      <div class="container zindex">
+        <div class="row">
+          <div class="col-lg-12 about-head heading-bg form-head">
+            <h2>CONTACT US</h2>
+            <h3>STAY CONNECTED EVERYTIME</h3>
+          </div>
+        </div>
+      </div>
+      <div class="container zindex">
+        <div class="row">
+          <div class="col-lg-6 form-p">
+            <div class="user-form">
+              <form>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <label for="exampleInputEmail1"> <i class="fa fa-user-o" aria-hidden="true"></i>
+                        Your Full name</label>
+                      <input name="name" required="" type="text" class="form-control" placeholder="Enter your name">
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <label for="exampleInputEmail1"> <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        Your email address</label>
+                      <input name="email" required="" type="text" class="form-control" placeholder="Enter your email">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <label for="exampleInput"><i class="fa fa-address-book-o" aria-hidden="true"></i> Your
+                        Contact</label>
+                      <input type="text" required="" name="contact" class="form-control" placeholder="Enter your Contact">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1"><i class="fa fa-comments-o" aria-hidden="true"></i> Your
+                        Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" required="" rows="3" placeholder="Type here...." style="height: 99px;"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center">
+                <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                  Send
+                  It
+                </button>
+            </div>
+</form></div>
+            
+          </div>
+          <div class="col-lg-6 form-p">
+            <div class="mapouter">
+              <div class="gmap_canvas"><iframe src="./certify_files/embed.html" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+            <div class="text-center mt-5">
+              <button type="submit" id="webtraffic" class="btn ranjeet user-form btn-primary btn-primary1 text-center" title="#DharmaKarma Web Traffic Analytics" data-toggle="modal" data-target="#myModal"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> #DharmaKarma Web Traffic Analytics
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section></div>
+  
+  
+  <style>
+.w-100 img{
+  width: 70% !important;
+}
+@media(min-width:1359px) and (max-width:1506px) {
+  .w-100 img{
+  width: 60% !important;
+}
+}
+@media(min-width:1179px) and (max-width:1359px) {
+  .w-100 img{
+  width: 85% !important;
+}
+}
+@media(min-width:991px) and (max-width:1179px) {
+  .w-100 img{
+  width: 100% !important;
+}
+}
+@media(min-width:767px) and (max-width:991px) {
+  .w-100 img{
+  width: 65% !important;
+}
+}
+@media(min-width:350px) and (max-width:576px) {
+  .w-100 img{
+  width: 40% !important;
+  margin-bottom: 4%;
+}
+}
+
+
+@media(min-width:767px) and (max-width:991px) {
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+}
+  </style>
+
+  <!-- CONTACT AREA END -->
+
+  <!-- FOOTER AREA START -->
+  <div class="container w-70">
+    <footer id="footer">
+      <!-- <div class="container"> -->
+        <div class="row">
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-12 insta-item">
+              <div class="text-center">
+                <div class="w-100">
+                  <a type="button" data-toggle="modal" data-target="#modalForm3">
+                    <img class="blink" src="./certify_files/logodkcert.png" id="dkcertlogo"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-12 insta-item">
+              <div class="text-center">
+                <h3>OPENING HOURS</h3>
+                <div class="contact-item">
+                  <p>Mon-Fri: 09:00 AM - 10:00 PM</p>
+                  <p>Sat-Sun: 10:00 AM - 10:00 PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-12 insta-item">
+              <div class="text-center">
+                <h3>ADDRESS</h3>
+                <div class="contact-item">
+                  <p>Nigam Nagar,760008</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-12 insta-item">
+              <div class="text-center">
+                <h3>CONNECT US</h3>
+                <div class="contact-item">
+                  <p>Please call</p>
+                  <p>(+91) 9938964453</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- </div> -->
+      </div>
+    </footer>
+  </div>
+  <!-- FOOTER AREA END -->
+  <div class="modal" id="modalForm2" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact Form</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="https://dharmakarma.net/DKCertified/ODISHA/FO01LN01/760008/BO18MS01/mail.php" method="post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="label" for="name">Full Name</label>
+                  <input type="text" class="form-control" name="name" required="" id="name" placeholder="Full Name">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="label" for="email">Email Address</label>
+                  <input type="email" class="form-control" name="email" required="" id="email" placeholder="Email">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="label" for="subject">Contact</label>
+                  <input type="text" class="form-control" name="contact" required="" id="contact" placeholder="Contact">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="label" for="subject">Subject</label>
+                  <input type="text" class="form-control" name="subject" required="" id="subject" placeholder="Subject">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label class="label" for="#">Message</label>
+                  <textarea name="message" class="form-control" id="message" required="" cols="30" rows="4" placeholder="Message"></textarea>
+                </div>
+              </div>
+            </div>
+        </form></div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" onclick="window.location.reload()">Close</button>
+          <input type="submit" name="submit" class="btn btn-primary">
+          <div class="submitting"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modalForm4" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">VCF Card</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+        <br> 
+          <h5>Please click this button using your cell phone to add My contact details to your contact lists</h5>
+          
+          <br> 
+
+        </div>
+        <div class="modal-footer">
+        <div class="col-md-12 text-center">
+        <a href="https://dharmakarma.net/DKCertified/ODISHA/FO01LN01/760008/BO18MS01/image/vcf-Cards.vcf">
+                            <button type="button" class="btn btn-primary dk2"><i class="fa fa-download" aria-hidden="true">
+                                 &nbsp;</i>VCF</button><br><br></a></div>
+            </div> 
+        </div>
+      </div>
+    </div>
+  
+
+  <div class="modal show" id="modalForm3" role="dialog" style="padding-right: 15px; display: block;">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">certificate</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <br> <img src="./certify_files/RudraEngg.png" height="350px" width="100%" id="certified"><br><br>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" onclick="pdfDown1()"><i class="fa fa-download" aria-hidden="true">&nbsp;</i>Download</button><br><br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">#DK Web Traffic Analysis for Rudra Engineering</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <iframe src="./certify_files/BO18MS01+.html" width="750" height="512" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modalForm" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact Form</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="label" for="name">Full Name</label>
+                  <input type="text" class="form-control" name="name" required="" id="name1" placeholder="Full Name">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="label" for="email">Email Address</label>
+                  <input type="email" class="form-control" name="email" required="" id="email1" placeholder="Email">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="label" for="subject">Contact</label>
+                  <input type="text" class="form-control" name="contact" required="" id="phone1" placeholder="Contact">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="label" for="subject">Subject</label>
+                  <input type="text" class="form-control" name="subject" required="" id="subject1" placeholder="Subject">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label class="label" for="#">Message</label>
+                  <textarea name="message" class="form-control" id="message1" required="" cols="30" rows="4" placeholder="Message"></textarea>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" onclick="window.location.reload()">Close</button>
+          <button type="button" class="btn btn-primary submitBtn" id="submitbtncon" onclick="gotowhatsapp()">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- COPY_RIGHT AREA START -->
+  <section id="footer-btm">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="fop-btm text-center">
+            <h2>
+              <p style="text-align:center;">With <i style="color:red;" class="fa fa-heart" aria-hidden="true"></i> from
+                <a href="http://dharmakarma.net/">DKInc Digital(India) Pvt. Ltd. </a>
+              </p>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- COPY_RIGHT AREA END -->
+  <!-- Optional JavaScript -->
+  <script src="./certify_files/jquery-1.12.4.min.js.download"></script>
+  <script src="./certify_files/bootstrap.min.js.download"></script>
+  <script src="./certify_files/slick.min.js.download"></script>
+  <script src="./certify_files/venobox.min.js.download"></script>
+  <script src="./certify_files/jquery.counterup.min.js.download"></script>
+  <script src="./certify_files/jquery.waypoints.min.js.download"></script>
+  <script src="./certify_files/circular.js.download"></script>
+  <script src="./certify_files/custom.js.download"></script>
+
+
+
+
+
+<script>
+  function gotowhatsapp() {
+
+
+    var name = document.getElementById("name1").value;
+    var email = document.getElementById("email1").value;
+    var contact = document.getElementById("phone1").value;
+    var service = document.getElementById("subject1").value;
+    var subject = document.getElementById("message1").value;
+
+    var url = "//wa.me/+91947374199?text="
+      + "Name: " + name + "%0a"
+      + "Email: " + email + "%0a"
+      + "Contact: " + contact + "%0a"
+      + "Subject: " + service + "%0a"
+      + "Message: " + subject;
+
+
+    // var res = encodeURIComponent(url);
+    window.open(url, '_blank').focus();
+
+    // }
+  }
+</script>
+<script>
+  var certified1 = document.getElementById('certified1');
+  certified1.src = URL.createObjectURL(even.target.files[0]);
+  //  var newImg = document.createElement('certified1').src;
+  //  newImg = URL.createObjectURL(even.target.files[0]);
+  certified1.onload = function () {
+    URL.revokeObjectURL(certified1.src)
+  }
+
+  function pdfDown() {
+    // alert(certified);
+    console.log(certified1);
+    var doc = new jsPDF();
+    doc.addImage(certified1, 5, 5, 200, 100);
+    doc.save('visitingCard.pdf');
+  }
+
+</script>
+
+
+
+
+<script>
+  var certified = document.getElementById('certified');
+  certified.src = URL.createObjectURL(even.target.files[0]);
+  //  var newImg = document.createElement('certified1').src;
+  //  newImg = URL.createObjectURL(even.target.files[0]);
+  certified.onload = function () {
+    URL.revokeObjectURL(certified.src)
+  }
+
+  function pdfDown1() {
+    // alert(certified);
+    console.log(certified);
+    var doc = new jsPDF();
+    doc.addImage(certified, 5, 5, 200, 100);
+    doc.save('Certificate.pdf');
+  }
+</script>
+<style>
+ plr-5 {
+    padding: 0px 10px;
+}
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .modal-lg iframe {
+      width: 470px;
+      height: 512px;
+    }
+  }
+
+  @media only screen and (min-width: 600px) and (max-width: 768px) {
+    .modal-lg iframe {
+      width: 470px;
+      height: 512px;
+    }
+  }
+
+  @media only screen and (min-width: 500px) and (max-width: 600px) {
+    .modal-lg iframe {
+      width: 440px;
+      height: 512px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .modal-lg iframe {
+      width: 410px;
+      height: 512px;
+    }
+  }
+
+  @media only screen and (min-width: 400px) and (max-width: 500px) {
+    .modal-lg iframe {
+      width: 350px;
+      height: 512px;
+    }
+  }
+
+  @media only screen and (min-width: 390px) and (max-width: 400px) {
+    .modal-lg iframe {
+      width: 330px;
+      height: 512px;
+    }
+  }
+
+  @media only screen and (min-width: 300px) and (max-width: 376px) {
+    .modal-lg iframe {
+      width: 300px;
+      height: 512px;
+    }
+
+  }
+  @media all and (max-width: 767px) {
+    #vcfmodal{
+      display:none;
+    }
+    /* Apply first set of CSS rules */
+}
+
+@media not all and (max-width: 767px) {
+  #vcf{
+      display:none;
+    }
+    /* Apply second set of CSS rules */
+}
+</style><div class="modal-backdrop show"></div></body></html>

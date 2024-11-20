@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static page</title>
+    <style>
+
+        .home{
+             background-image: url('gate.jpeg');
+               background-repeat: no-repeat;
+               height: 500px; 
+
+        }
+       .wrrapper{
+            display: grid;
+            grid-template-columns:repeat(2, 1fr);
+            margin-top: 10%;
+            column-gap: 10%;
+            row-gap: 10%;
+
+           
+
+       }
+       .wrrapper >div:nth-child(odd){
+        background-color: white;
+        margin-bottom: 10%;
+
+       }
+        .container{
+        
+             
+            
+            margin-left: 300px;
+            margin-right: 200px;
+        }
+        .contact{
+             background-image: url('gate.jpeg');
+               background-repeat: no-repeat; 
+
+        }
+        .show{
+            float: left;
+            height: 80%;
+            width: 80%;
+            
+            
+        }
+        .show1{
+            float: right;
+            height: 70%;
+            width: 70%;
+        }
+
+        .nested{
+
+            display: grid;
+            grid-template-columns: auto auto;
+            margin-top: 25%;
+        }
+
+
+        
+    </style>
+    
+
+   
+</head>
+<body>
+    <div class="container">
+    <div class="home">
+        <div style="background-color: orange;"  >
+            <h2 align="left"> Rudra Engineering</h2>
+            <p align="right">
+            <a href="#c1">home</a>
+             <a href="#c2">about us</a>
+             <a href="#c4">OurServices</a>
+             <a href="#c5">Gallery</a>
+             <a href="#c6">Contact us</a>
+            </p> 
+ </div>
+</div>
+</div>
+
+<div class="container">
+    <div class="wrrapper">
+        <div>
+          <h1  id="c2" style="color:rgb(235, 14, 14);">ABOUT US</h1>
+        <h2  style="color: black;">KNOW ABOUT OUR COMPANY</h2>
+        <img  class="show"  src="about0.jpeg" alt="gate">
+    </div>
+    <div>
+<h2 STYLE="color: black;">OUR COMPANY NAME IS RUDRA ENGINEERING</h2>
+    <P ><b style="color: black;">Owner Name :- </b><span style="color: red;">Manas Ranjan Satapathy</span></P>
+      <p > <b style="color: black;">Welcome to Rudra Engineering ..</b> <br/> This is a COMPANY THAT DESIGNS GATES. A gate can make an opening statement and offer a first impression of your home; it's like the front door for your entire property. The perfect gate blends with your home's architectural design, using similar or complementary materials. Connected to a fence or standing alone, a gate combines form and function, providing another layer of safety, whether it's keeping kids and pets contained in the yard, creating more privacy, or adding extra security. If it's well designed,a gate can be the focal point of a home's front exterior.</p>
+</div>
+</div>
+</div>
+
+
+<div class="container">
+    <div class="wrrapper">
+    <div>
+    <h1 align="left" ; id="c4" style="color: rgb(235, 14, 14);">OUR SERVICE</h1>
+    <h2 style="color: black;"> CHECKOUT OUR SERVICE</h2>
+    <p>Our company listens to the customer demands and plans according to them and designs the gate that satifies to customer.</p><br/>
+    <p>
+        ଆମ କମ୍ପାନୀ ଗ୍ରାହକଙ୍କ ଚାହିଦା ଏବଂ ଯୋଜନା ଅନୁଯାୟୀ ଶୁଣେ ଏବଂ ଗେଟ୍ ଡିଜାଇନ୍ କରେ ଯାହା ଗ୍ରାହକଙ୍କୁ ସନ୍ତୁଷ୍ଟ କରେ |
+    </p><br/>
+    <p>
+        We are also having some good ideas and dsigns for customer to decide the design. Traditional materials for gates include: Wood, Metal, Vinyl, PVC, or Polyresin, Alternative Natural Materials: Like rattan or bamboo. ଗ୍ରାହକଙ୍କ ପାଇଁ ଡିଜାଇନ୍ ସ୍ଥିର କରିବାକୁ ଆମର କିଛି ଭଲ ଧାରଣା ଏବଂ ଡିଜାଇନ୍ ମଧ୍ୟ ଅଛି | ଫାଟକ ପାଇଁ ପାରମ୍ପାରିକ ସାମଗ୍ରୀ ଅନ୍ତର୍ଭୁକ୍ତ: କାଠ, ଧାତୁ, ଭିନିଲ୍, ପିଭିସି, କିମ୍ବା ପଲିରେସିନ୍, ବିକଳ୍ପ ପ୍ରାକୃତିକ ସାମଗ୍ରୀ: ରତନ କିମ୍ବା ବାଉଁଶ ପରି |
+    </p>
+</div>
+<div class="nested">
+    <img class="show1" src="s1.jpeg" alt="s1">
+    <img  class="show1" src="s2.jpeg" alt="s2">
+    <img  class="show1" src="s3.jpeg" alt="s3">
+    <img  class="show1" src="s4.jpeg" alt="s4">
+</div>
+</div>
+</div>
+
+
+
+    <div class="container">
+    <h1 align="left" ; id="c5" style="color: rgb(235, 14, 14);"> OUR GALLERY</h1>
+    <h2 style="color: black;">LOOK WHAT PEOPLE SAYS</h2>
+    <img  src="g1.jpeg" alt="gate" width="20%">
+    <img  src="g2.jpeg" alt="gate2" width="20%">
+    <img  src="g3.jpeg" alt="gg3" width="20%">
+    <img  src="g4.jpeg" alt="gg4" width="20%">
+    
+
+    </div>
+
+    <div class="container">
+        <div class="contact">
+     
+    <h3 id="c6">Contact us</h3>
+    
+<form>
+    <div>
+        your fullname <br/>
+        <input  type="text" placeholder="enter your Name">
+        your email address <br/>
+        <input  type="email" placeholder="enter your mail">
+        <input type="submit" value="Submit">
+</div>
+</form>
+</div>
+</div>
+<footer style="background-color: black;" width="400px"  height="400px">
+    <p align="center"> <span style="color: white;">with</span> <span style="color: rgb(255, 5, 5);">&#128151</span> <span style="color: white;">from</span> <span style="color: red;">DKinc Digital(india) Pvt.Ltd</span></p>
+</footer>
+
+
+
+</body>
+</html>

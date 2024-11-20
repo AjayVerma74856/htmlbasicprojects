@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static page testing</title>
+<style>
+        body{
+            margin: 0%;
+        }
+        .navbar{
+            background-color: rgb(19, 18, 18);
+            overflow: hidden;
+            height: 63px;
+            
+           
+        }
+        .navbar a{
+            display: block;
+            text-align: center;
+            float: right;
+            padding: 14px 16px;
+            text-decoration: none;
+            color: white;
+        }
+        
+        .navbar a:hover{
+            background-color: rgb(235, 14, 14);
+            text-decoration: underline;
+            
+        }
+        .middle{
+            background-image: url('gateorginal.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 300px;
+            text-align: center;
+            padding-top: 25%;
+           /* background-color: rgb(61, 58, 58);*/
+            color:rgb(235, 14, 14) ;
+        }
+        .middle>button{
+            height: 40px;
+            width: 80px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            background-color:rgb(235, 14, 14) ;
+            color: white;
+            border-color: black;
+        }
+    
+       /* .start{
+            background-image: url('gate.jpeg');
+            background-repeat: no-repeat;
+        
+        
+           
+          */ 
+
+          .fa-brands{
+            padding: 20px;
+            font-size: 20px;
+            /* height: 40px; */
+            width: 20px;
+            text-align: center;
+            text-decoration: dashed;
+            margin: 5px 2px;
+            /* box-sizing: border-box; */
+            border-radius: 20px;
+        }
+
+        .fa-brands:hover{
+                background-color: brown;
+         
+        }
+        .fa-sms{
+            background-color: orangered;
+            color: lightgoldenrodyellow;
+        
+        }
+        .fa-youtube{
+            background-color: red;
+            color: white;
+        }
+        .fa-whatsapp{
+            background-color: green;
+            color: white;
+        }
+        .fa-envelope{
+            background-color: blueviolet;
+            color: whitesmoke;
+        }
+        
+        
+        .proper{
+            
+            float: left;
+            margin-left: 4%;
+            color: white;
+            
+        
+        }
+
+       .wrrapper{
+            display: grid;
+            grid-template-columns:repeat(2, 1fr);
+            margin-top: 10%;
+            column-gap: 10%;
+            row-gap: 10%;
+
+           
+
+       }
+       /*.wrrapper >div:nth-child(odd){
+        background-color: white;
+        margin-bottom: 10%;
+
+       }*/
+        .container{
+        
+             
+            
+            margin-left: 250px;
+            margin-right: 200px;
+        }
+        /*.contact{
+             background-image: url('gate.jpeg');
+               background-repeat: no-repeat; 
+
+        }*/
+        .show{
+            float: left;
+            height: 80%;
+            width: 80%;
+            
+            
+        }
+        .show1{
+            float: right;
+            height: 70%;
+            width: 70%;
+        }
+
+        .nested{
+
+            display: grid;
+            grid-template-columns: auto auto;
+            margin-top: 25%;
+        }
+
+        .mapping{
+            padding: 20%;
+            /* margin: 20px 20px; */
+            margin-top: 60px;
+        }
+        .footernav{
+            display: flex;
+            background-color: black;
+            /* color: white; */
+            
+            
+        
+
+        }
+        .box1{
+            flex: 1;
+            order: 0;
+        }
+        .box2{
+            flex: 1;
+            order: 1;
+            color: white;
+
+        }
+        .box3{
+            flex: 1;
+            order: 2;
+            color: white;
+
+        }
+        .box4{
+            flex: 1;
+            order: 3;
+            color: white;
+
+        }
+        .retain{
+            height: 70px;
+            width: 70px;
+            margin-top: 10%;
+            margin-left: 10%;
+            
+        }
+        .adjust{
+            margin: 30px 40px ;
+        }
+        .line{
+            display: flex;
+            /* background-color: black; */
+            
+        }
+        .line1{
+        flex: 1;
+        order: 0;
+        color: white;
+        }
+        .line2{
+        flex: 1;
+        order: 1;
+        color: white;
+        }
+
+        /*.footerbar{
+            background-color: black;
+            bottom: 0%;
+            width: 100%;
+        }*/   
+    </style>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   
+</head>
+<body>
+    <div class="navbar">
+        
+        <a href="#c5"> Contact Us</a>
+        <a href="#c4"> Our Gallery</a>
+        <a href="#c3"> Our Services</a>
+        <a href="#c2">About Us</a>
+        <a href="#c1">Home</a>
+    
+        <div class="proper">
+            <h3 > RUDRA ENGINEERING</h3>
+           
+        </div>
+        
+        
+    </div>
+    
+    <div class="container">
+        <div class="middle">
+        <!---<img src="gate.jpeg" alt="gate" width="100%">-->
+        <h1>RUDRA ENGINEERING</h1>
+         <h2 style="color: white;" >Contact Us</h2>
+         <a href="" class="fa-brands  fa-sms"></a>
+         <a href="" class="fa-brands  fa-youtube"></a>
+         <a href="" class="fa-brands  fa-whatsapp"></a>
+         <a href="" class="fa-brands  fa-envelope"></a><br/><br/>
+         <button>VCF Card</button>
+    </div>
+    </div>
+
+<div class="container">
+    <div class="wrrapper">
+        <div>
+          <h1 id="c2" style="color:rgb(235, 14, 14);">ABOUT US</h1>
+        <h2  style="color: black;">KNOW ABOUT OUR COMPANY</h2>
+        <img  class="show"  src="about0.jpeg" alt="gate">
+    </div>
+    <div>
+<h2 STYLE="color: black;">OUR COMPANY NAME IS RUDRA ENGINEERING</h2>
+    <P ><b style="color: black;">Owner Name :- </b><span style="color: red;">Manas Ranjan Satapathy</span></P>
+      <p > <b style="color: black;">Welcome to Rudra Engineering ..</b> <br/> This is a COMPANY THAT DESIGNS GATES. A gate can make an opening statement and offer a first impression of your home; it's like the front door for your entire property. The perfect gate blends with your home's architectural design, using similar or complementary materials. Connected to a fence or standing alone, a gate combines form and function, providing another layer of safety, whether it's keeping kids and pets contained in the yard, creating more privacy, or adding extra security. If it's well designed,a gate can be the focal point of a home's front exterior.</p>
+</div>
+</div>
+</div>
+
+
+<div class="container">
+    <div class="wrrapper">
+    <div>
+    <h1 align="left" ; id="c3" style="color: rgb(235, 14, 14);">OUR SERVICE</h1>
+    <h2 style="color: black;"> CHECKOUT OUR SERVICE</h2>
+    <p>Our company listens to the customer demands and plans according to them and designs the gate that satifies to customer.</p><br/>
+    <p>
+        ଆମ କମ୍ପାନୀ ଗ୍ରାହକଙ୍କ ଚାହିଦା ଏବଂ ଯୋଜନା ଅନୁଯାୟୀ ଶୁଣେ ଏବଂ ଗେଟ୍ ଡିଜାଇନ୍ କରେ ଯାହା ଗ୍ରାହକଙ୍କୁ ସନ୍ତୁଷ୍ଟ କରେ |
+    </p><br/>
+    <p>
+        We are also having some good ideas and dsigns for customer to decide the design. Traditional materials for gates include: Wood, Metal, Vinyl, PVC, or Polyresin, Alternative Natural Materials: Like rattan or bamboo. ଗ୍ରାହକଙ୍କ ପାଇଁ ଡିଜାଇନ୍ ସ୍ଥିର କରିବାକୁ ଆମର କିଛି ଭଲ ଧାରଣା ଏବଂ ଡିଜାଇନ୍ ମଧ୍ୟ ଅଛି | ଫାଟକ ପାଇଁ ପାରମ୍ପାରିକ ସାମଗ୍ରୀ ଅନ୍ତର୍ଭୁକ୍ତ: କାଠ, ଧାତୁ, ଭିନିଲ୍, ପିଭିସି, କିମ୍ବା ପଲିରେସିନ୍, ବିକଳ୍ପ ପ୍ରାକୃତିକ ସାମଗ୍ରୀ: ରତନ କିମ୍ବା ବାଉଁଶ ପରି |
+    </p>
+</div>
+<div class="nested">
+    <img class="show1" src="s1.jpeg" alt="s1">
+    <img  class="show1" src="s2.jpeg" alt="s2">
+    <img  class="show1" src="s3.jpeg" alt="s3">
+    <img  class="show1" src="s4.jpeg" alt="s4">
+</div>
+</div>
+</div><br/><br/>
+
+
+
+    <div class="container">
+    <h1 align="center" ; id="c4" style="color: rgb(235, 14, 14);"> OUR GALLERY</h1>
+    <h2 style="color: black;" align="center">LOOK WHAT PEOPLE SAYS</h2>
+    <img  src="g1.jpeg" alt="gate" width="22%">
+    <img  src="g2.jpeg" alt="gate2" width="22%">
+    <img  src="g3.jpeg" alt="gg3" width="22%">
+    <img  src="g4.jpeg" alt="gg4" width="22%">
+    
+
+    </div><br/><br/><br/>
+
+    <div class="container">
+    <div class="line">
+    <div class="line1">
+        <h1 id="c5" style="color:rgb(235, 14, 14) ;">CONTACT US</h1>
+        <h2><span style="color:orangered">STAY CONNECTED EVERY TIME</span></h2>
+        <div>
+            <div class="adjust">
+        <form>
+         <div style="display: inline-block;"> 
+        
+            <div>  
+        <label for="name"><span style="color: rgb(235, 14, 14);"> Your Full Name:</span></label></div>
+        <div>
+        <input  type="text" placeholder="Enter Your Name" name="name" id="name" ></div>
+        <div>
+        <label for="email"><span style="color: rgb(235, 14, 14);">Your Email Address:</span></label></div>
+        <div>
+        <input  type="email" placeholder="Enter Your Mail" id="email"></div></div>
+        <div>
+        <label for="number"><span style="color: rgb(235, 14, 14);">Your Contact:</span></label></div>
+        <input type="number" placeholder=" Enter Your Contact" name="num" id="number"><br/><br/>
+        <div>
+        <label for="text"><span style="color: rgb(235, 14, 14);">Your Message:</span></label></div>
+        <textarea  id="text" name="area"  > Type here....</textarea><br/><br/>
+        <div align="center"><button style="background-color: rgb(235, 14, 14);"><span style="color: white;">Send It</span></button></div>
+
+        </form>
+            </div>
+    </div>
+    </div>
+    <div class="line2">
+     <div class="mapping">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3765.49005529178!2d84.824889!3d19.30453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3d5bb3fcfdd659%3A0x87d82aaaf7aaeb0b!2sShirdi%20Sai%20Temple!5e0!3m2!1sen!2sin!4v1727667893542!5m2!1sen!2sin" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br/><br/>
+    <button style="background-color: rgb(235, 14, 14);"><span style="color: white;">#DharmaKarma Web Traffic Analytics</span></button>
+    </div>
+    </div>
+    </div>
+ 
+  <div class="footernav">
+    <div class="box1">
+        <img class="retain" src="./certification.jpeg" alt="certification" >
+    </div>
+        <div class="box2">
+       <h3> OPENING HOURS</h3>
+       <p style="padding-top: 5%;">
+            mon-fri: 09:00 AM -10:00 PM<br/>
+            sat-sun: 10:100 AM -10:00 PM
+        </p>
+        </div>
+         <div class="box3">   
+        <h3>ADDRESS</h3>
+        <p>Nigam Nagar,760008</p>
+        </div>
+        <div class="box4">
+        <h3>CONNECT US</h3>
+        <p>Please call<br/><br/>
+        (+91) 9938964453</p>
+        </div>
+    </div> 
+    
+</div>
+    <footer style="background-color: black;" >
+    
+           
+    <p align="center"> <span style="color: white;">with</span> <span style="color: rgb(255, 5, 5);">&#128151</span> <span style="color: white;">from</span> <span style="color: red;">DKinc Digital(india) Pvt.Ltd</span></p>
+</footer>
+
+</body>
+</html>
