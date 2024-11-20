@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+body{
+    /* height: 600px;
+    width: 800px; */
+    /* box-sizing: border-box;
+    border: 2px dashed orangered; */
+}
+#job{
+    float: left;
+    height: 200px;
+    width: 300px;
+    
+}
+.iim{
+    float: right;
+    height: 200px;
+    width: 300px;
+}
+.clearfix{
+    overflow: auto;
+    box-sizing: border-box;
+    border: 2px dashed orangered;
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice - Course Fee Payment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .invoice-container {
+            width: 80%;
+            margin: 50px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            font-size: 36px;
+            color: #333;
+        }
+        .header p {
+            font-size: 16px;
+            color: #777;
+        }
+        .company-info, .student-info, .invoice-details {
+            margin-bottom: 20px;
+        }
+        .company-info h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #333;
+        }
+        .company-info p {
+            margin: 5px 0;
+            color: #555;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f9f9f9;
+        }
+        tr:nth-child(even) {
+            background-color: #f4f4f4;
+        }
+        .total-amount {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 20px;
+        }
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #777;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="invoice-container">
+        <!-- Invoice Header -->
+        <div class="header">
+            <h1>Invoice</h1>
+            <p>Course Fee Payment</p>
+        </div>
+
+        <!-- Institution Info -->
+        <div class="company-info">
+            <h3>Educational Institution Name</h3>
+            <p>Address: 123 Education St, City, Country</p>
+            <p>Email: info@institution.com | Phone: (123) 456-7890</p>
+        </div>
+
+        <!-- Student Information -->
+        <div class="student-info">
+            <h3>Student Information</h3>
+            <table>
+                <tr>
+                    <th>Student Name</th>
+                    <td id="student-name">John Doe</td>
+                </tr>
+                <tr>
+                    <th>Student ID</th>
+                    <td id="student-id">STU12345</td>
+                </tr>
+                <tr>
+                    <th>Course Name</th>
+                    <td id="course-name">Introduction to Programming</td>
+                </tr>
+                <tr>
+                    <th>Instructor</th>
+                    <td id="instructor">Dr. Jane Smith</td>
+                </tr>
+                <tr>
+                    <th>Payment Due Date</th>
+                    <td id="due-date">2024-11-30</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Invoice Details -->
+        <div class="invoice-details">
+            <h3>Invoice Details</h3>
+            <table>
+                <tr>
+                    <th>Description</th>
+                    <th>Amount ($)</th>
+                </tr>
+                <tr>
+                    <td>Course Fee</td>
+                    <td><input type="number" id="course-fee" value="500" onchange="updateInvoice()" /></td>
+                </tr>
+                <tr>
+                    <td>Discount (%)</td>
+                    <td><input type="number" id="discount" value="10" onchange="updateInvoice()" /></td>
+                </tr>
+                <tr>
+                    <td>Tax Rate (%)</td>
+                    <td><input type="number" id="tax-rate" value="5" onchange="updateInvoice()" /></td>
+                </tr>
+                <tr>
+                    <th>Total Amount</th>
+                    <th id="total-amount">$</th>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Total Amount -->
+        <div class="total-amount">
+            <p>Total Amount Due: <strong id="total-due">$500.00</strong></p>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Thank you for choosing our institution!</p>
+            <p>For questions, please contact us at info@institution.com or (123) 456-7890.</p>
+        </div>
+    </div>
+
+    <script>
+        // Function to calculate the total amount
+        function updateInvoice() {
+            // Get the values from input fields
+            const courseFee = parseFloat(document.getElementById('course-fee').value) || 0;
+            const discount = parseFloat(document.getElementById('discount').value) || 0;
+            const taxRate = parseFloat(document.getElementById('tax-rate').value) || 0;
+
+            // Calculate discount amount
+            const discountAmount = (courseFee * discount) / 100;
+
+            // Calculate tax amount
+            const taxAmount = ((courseFee - discountAmount) * taxRate) / 100;
+
+            // Calculate total amount
+            const totalAmount = (courseFee - discountAmount) + taxAmount;
+
+            // Update the displayed amounts
+            document.getElementById('total-amount').innerText = '$' + totalAmount.toFixed(2);
+            document.getElementById('total-due').innerText = '$' + totalAmount.toFixed(2);
+        }
+
+        // Initial calculation on page load
+        window.onload = function() {
+            updateInvoice();
+        };
+    </script>
+</body>
+</html>

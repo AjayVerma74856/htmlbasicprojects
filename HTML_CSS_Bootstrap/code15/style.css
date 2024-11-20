@@ -1,0 +1,31 @@
+
+  h2::before {
+    counter-increment: section;
+    content: "Section " counter(section) ": ";
+  }
+
+
+
+[class$="passage"] {
+    background: yellow;
+  }
+
+  [class*="te"] {
+    background:orangered;
+  }
+  [class^="tr"] {
+    background:cyan;
+  }
+  [title~="image1"] {
+    border: 5px solid violet;
+  }
+  [title~="image2"] {
+    border: 5px solid blue;
+  }
+  img {
+    opacity: 0.5;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+  }

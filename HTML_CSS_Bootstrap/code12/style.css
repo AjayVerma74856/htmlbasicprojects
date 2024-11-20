@@ -1,0 +1,22 @@
+*{
+    /* text-align: center; */
+    margin: 0%;
+}
+/* body{
+    display: inline-block;
+} */
+.boxing{
+    display: table;
+    /* flex-direction: row; */
+}
+.imagebox{
+    float: left;
+    text-align: center;
+    width: 120px;
+    border: 1px solid black;
+    margin: 4px;
+    padding: 6px;
+    
+   
+    
+}

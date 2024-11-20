@@ -1,0 +1,38 @@
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 800px;
+    /* align-items: center; */
+}
+
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    margin: 20px;
+    transition: all 3s ease;
+}
+.box:hover{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    transform: rotate(30deg);
+}
+.box1{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    margin: 15px;
+    transform: rotate(45deg);
+    transition: all 3s ease;
+}
+.box1:hover{
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+    transform: translateX(100px);
+    /* transform: rotate(0deg); */
+}

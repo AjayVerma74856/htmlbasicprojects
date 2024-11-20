@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript bascics</title>
+
+    <!-- <style>
+        #demo{
+            visibility: hidden;
+        }
+        #one{
+            color: green;
+        }
+    </style> -->
+</head>
+<body>
+    <p id="demo">learning JavaScript</p>
+
+<button type="button" onclick=start()>use Me!</button>
+
+
+<h1 id="one">Play with javascript</h1>
+<button ondblclick="fun()">Click me</button>
+<button onclick="window.print()">Print Page</button>
+
+<script>
+
+window.alert("ajay nanda")
+
+    var demo= document.getElementById('demo')
+function start(){
+        demo.textContent="welcome to javascript world"
+        demo.style.fontSize="50px"
+        
+}
+
+var one = document.getElementById('one')
+
+function fun(){
+    one.innerHTML="ThumbsUp Chase the wonder"
+    
+}
+
+
+
+
+
+</script>
+
+
+    
+</body>
+</html>
